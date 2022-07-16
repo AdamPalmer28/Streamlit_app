@@ -6,5 +6,5 @@ from page_class import *
 
 
 
-homepage_p = web_page("Welcome to my demo page", "Settings")
-homepage_p.run()
+settings_p = web_page("Welcome to my demo page", "Settings")
+settings_p.run()
