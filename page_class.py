@@ -15,6 +15,11 @@ class web_page:
         "Runs the streamlit application"
         st.title(self.title)
 
+        # st.set_page_config(
+        # page_title= self.name,
+        # page_icon="👋",
+        # )
+
 
     def page_selector(self, otherpages):
 

@@ -5,6 +5,5 @@ import streamlit as st
 from page_class import *
 
 
-
-homepage = web_page("Welcome to my demo page", "Home Page")
-homepage.run()
+graphs_p = web_page("Welcome to my graphs page", "Graphs")
+graphs_p.run()
