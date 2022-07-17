@@ -1,7 +1,6 @@
 """Functions for displaying pdfs in streamlit apps"""
 import streamlit as st
 import base64
-import base32
 
 
 def displayPDF(file_path):
