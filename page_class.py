@@ -22,8 +22,7 @@ class web_page:
         
         self.sidebar()
 
-        st.markdown(self.title)
-        st.sidebar.markdown(self.title)
+        
 
 
     def run(self):
