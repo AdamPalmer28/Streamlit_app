@@ -12,7 +12,11 @@ mast_p.run()
 
 
 
+with st.expander("My idea"):
+    st.image("pages/resources/3_resources/Rot3.jpg", width = 600, caption = "My formulation for linearising the hypersphere")
+
+
 if st.button("View PDF"):
-    displayPDF("pages/resources/3_resources/HyperplaneClustering.pdf")
+    displayPDF("pages/resources/3_resources/HyperplaneClustering-compressed.pdf")
     st.write("Finished")
 
