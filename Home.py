@@ -15,6 +15,7 @@ class webapp:
 
         # Hide mainmenu and footer
         homepage = web_page("Welcome to my Home Page", "Homepage")
+        homepage.sidebar_state = "expanded"
         homepage.run()
 
         st.sidebar.success("Select a demo above.")

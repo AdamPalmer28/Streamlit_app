@@ -7,15 +7,32 @@ class web_page:
 
     def __init__(self, title, name):
         
-        self.title = title
+        
         self.name = name
+
+        # page properties
+        self.title = title
+        self.icon = "👋"
+        self.page_layout = "wide"
+        self.sidebar_state = "collapsed"
+
+        
+        
+
+        
+
+
+    def run(self):
+        "Runs the streamlit application"
 
         self.page_config = st.set_page_config(
                             page_title= self.name,
-                            page_icon= "👋",
-                            layout = "wide",
-                            initial_sidebar_state = "expanded",
+                            page_icon= self.icon,
+                            layout = self.page_layout,
+                            initial_sidebar_state = self.sidebar_state,
                                 )
+                            
+        st.title(self.title)
 
 
         self.html_format()
@@ -23,16 +40,6 @@ class web_page:
         self.sidebar()
 
         
-
-
-    def run(self):
-        "Runs the streamlit application"
-        st.title(self.title)
-
-        # st.set_page_config(
-        # page_title= self.name,
-        # page_icon="👋",
-        # )
 
     def sidebar(self):
         with st.sidebar:

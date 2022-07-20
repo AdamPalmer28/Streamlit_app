@@ -163,9 +163,9 @@
 
 base="dark"
 
-primaryColor = "#03125c"
-backgroundColor = "#210720"
-secondaryBackgroundColor = "#231f24"
+primaryColor = "#b00404"
+backgroundColor = "#141313"
+secondaryBackgroundColor = "#242222"
 
 textColor = "#d9d4d5"
 font = "serif" #'sans serif', 'serif', 'monospace'
